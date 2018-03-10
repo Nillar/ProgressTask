@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700');
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    letter-spacing: 15px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 15px;
+    word-wrap: break-word;
+}
+
+.action-bullets {
+    margin: 0 auto 10px;
+    max-width: 450px;
+    text-align: left;
+    box-shadow: 0 0 0 2px #DAA520,
+    0 0 0 4px #FFA500,
+    0 0 0 6px #800080,
+    0 0 0 8px #FF00FF,
+    1px 1px 1px 8px #222222,
+    2px 2px 1px 8px #4B4B4B,
+    3px 3px 1px 8px #818181,
+    4px 4px 1px 8px #B7B7B7,
+    5px 5px 1px 8px #DFDFDF,
+    6px 6px 1px 8px #F4F4F4
+}
+
+ul {
+    list-style: none;
+}
+
+ul.action-list {
+    padding: 5px;
+}
+
+ul.action-list > li {
+    padding: 5px;
+}
+
+.progress-history {
+    margin: 0 auto 15px;
+    padding: 5px;
+    max-width: 460px;
+    text-align: left;
+    font-family: "Times New Roman", serif;
+}
+
+.year {
+    margin: 0;
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 700;
+}
+
+ul.bullet-list {
+    background: linear-gradient(to right, rgba(175, 217, 230, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    border-top-left-radius: 10px;
+    padding: 15px;
+}
+
+.highlight-text#color-yellow {
+    background-color: yellow;
+}
+
+ul.bullet-list > li {
+    padding-bottom: 10px;
+}
+
+.button-holder {
+    margin: 0 auto 15px;
+    max-width: 450px;
+}
+
+button.add-bullets {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #6699CC;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+button.add-bullets:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
